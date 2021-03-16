@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Portafolio web</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
+	
+	<style>
+		/* comentario */
+	ol>li:nth-child(){	
+		background-color: #4caf50;
+		color: #fff;
+	}
+	</style>
+	
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="FirmaOpcional" type="boolean" value="true" -->
+</head>
+
+<body>
+	
+	<header>
+	<nav>
+		<ol id="indice">
+			<li><a href="../index.html">Inicio</a></li>	
+			<li><a href="../servicios.html">Servicios</a></li>
+			<li><a href="../contactos.html">Contacto</a></li>
+			
+			
+		</ol>
+		<h1 id="titulo">MI PORTAFOLIO</h1>
+	</nav>
+	</header>
+	
+
+<!-- TemplateBeginEditable name="EditRegion3" -->
+	<section>
+	Region Editable
+	</section>
+	
+	
+<!-- TemplateEndEditable -->
+
+<footer>
+		Todos los derechos reservados@
+	<br>
+    <!-- TemplateBeginIf cond="FirmaOpcional" -->
+		Roberto Durand
+		<!-- TemplateEndIf --> 
+</footer>
+	
+</body>
+</html>

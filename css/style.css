@@ -1,0 +1,120 @@
+@charset "utl-8";
+/* CSS Document */
+*{
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+}
+html,body{
+	max-width: 100%;
+	margin: auto;
+	background: white;
+	padding:0%;
+	height: 100%;
+}
+
+header{
+	background-color: darkblue;
+	color:white;
+	text-align: center;
+	max-width: 100%;
+}
+nav{
+	
+}
+section{
+	background-color: #78BD8E;
+	width: 100%;
+}
+
+h2{
+	padding: 2px;
+}
+p{
+	background-color: skyblue;
+}
+
+footer{
+	background-color: lightgray;
+	clear: both;
+	
+}
+
+ol{
+	list-style-type: none;
+	margin: 0;
+	padding: 0px;
+	overflow: hidden;
+	position: sticky;
+	top: 0;
+	text-align: center;
+}
+li{
+	float: right;
+	/*border-right: 1px solid;	*/
+}
+li a{
+	display: block;
+	padding: 4px 6px;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+li a:link{
+	text-align: left;
+	color: #fff;
+}
+li a:visited{
+	background-color: darkcyan;
+	color: #fff;
+}
+li a:hover{
+	background-color: darkgreen;
+	color: #fff;
+}
+li a:active{
+	background-color: darkorange;
+	color: #fff;
+}
+figure{
+	border: thin #c0c0c0 solid;
+	padding: 5px;
+	margin: auto;
+	max-width: 500px;
+	text-align: center;
+}
+figcaption{
+	background-color: #222;
+	color: #fff;
+	font: italic smaller sans-serif;
+	padding: 3px;
+	text-align: center;
+}
+img{
+	max-width:100% ;
+}
+img, img:hover{/*pseudo clase*/
+	transition: all 2s ease-in-out;
+}
+.zoom:hover{
+	transform: scale(1.5);
+}
+.zoomin{
+	overflow: visible;
+}
+/*ESTILOS DE LA PAGINA CONTACTO*/
+.correo{
+	background-color: cadetblue;
+	float:  left;
+	width: 49%;
+}
+.maps{
+	background-color: cadetblue;
+	float:  left;
+	width: 50%;
+}
+.col{
+	align-content: center;
+}
